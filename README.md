@@ -4,7 +4,9 @@ Dashboard desenvolvido para análise de indicadores escolares, com o objetivo de
 
 ## Dashboard
 
-![Dashboard Escolar](dashboard.png)
+<p align="center">
+  <img src="dashBord.jpeg" width="900">
+</p>
 
 ## Sobre os dados
 
