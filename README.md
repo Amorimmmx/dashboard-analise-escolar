@@ -1,69 +1,96 @@
-# Dashboard Escolar — Power BI
+Dashboard Escolar — Power BI
 
-Dashboard desenvolvido durante o **curso de Power BI do SENAI**, com o objetivo de analisar dados acadêmicos e apresentar indicadores de desempenho dos alunos de forma visual e interativa.
+Dashboard desenvolvido para análise de indicadores escolares, com o objetivo de transformar dados acadêmicos em informações visuais para acompanhamento do desempenho dos alunos, aprovação, reprovação e frequência.
 
-## Sobre os dados
+Dashboard
 
-A base utilizada contém informações acadêmicas de **80 alunos**, distribuídos entre diferentes cursos, com dados relacionados a notas, faltas e situação acadêmica.
+<p align="center">
+  <img src="DashBord.png" width="900">
+</p>
 
-Os dados utilizados incluem:
+Sobre os dados
 
-- **80 alunos**
-- **5 cursos**
-- Notas de 1 a 4
-- Quantidade de faltas
-- Situação dos alunos
-- Informações relacionadas ao desempenho acadêmico
+A base utilizada contém informações de 80 alunos, distribuídos entre diferentes cursos, com dados relacionados às notas obtidas em quatro avaliações e à quantidade de faltas.
 
-## O que o dashboard apresenta
+A base contém informações como:
 
-### Indicadores
+ID do aluno
+Nome do aluno
+Curso
+Nota 1
+Nota 2
+Nota 3
+Nota 4
+Faltas
 
-- **Quantidade de Alunos**
-- **Alunos Aprovados**
-- **Alunos Reprovados**
-- **Média de Faltas**
-- **Média Global**
+Os alunos estão distribuídos entre os seguintes cursos:
 
-### Gráficos e análises
+Engenharia de Produção
+Ciência da Computação
+Desenvolvimento de Sistemas
+Administração
+Recursos Humanos
+O que o dashboard apresenta
+Indicadores
+Quantidade de alunos
+Quantidade de aprovados
+Quantidade de reprovados
+Média de faltas
+Média global dos alunos
+Percentual de aprovação
+Percentual de reprovação
+Gráficos e análises
 
-- **Quantidade de Alunos por Curso:** apresenta a distribuição dos alunos entre os diferentes cursos.
-- **Média de Faltas por Curso:** permite comparar a média de faltas entre os cursos.
-- **Média Global:** apresenta a média geral dos alunos.
-- **% Reprovado:** indicador visual com o percentual de alunos reprovados.
-- **% Aprovado:** indicador visual com o percentual de alunos aprovados.
+Quantidade de alunos por curso:
+Visualização da distribuição dos alunos entre os diferentes cursos presentes na base.
 
-### Filtros
+Média de faltas por curso:
+Análise da média de faltas dos alunos de cada curso.
 
-O dashboard possui um filtro dinâmico para análise por:
+Média global:
+Apresentação da média geral dos alunos considerando as quatro avaliações.
 
-- **Curso**
+Percentual de aprovação e reprovação:
+Indicadores visuais que apresentam a proporção de alunos aprovados e reprovados.
 
-Ao selecionar um curso, os indicadores e visualizações podem ser analisados de acordo com a seleção realizada.
+Filtro por curso:
+Permite selecionar um curso específico para analisar seus respectivos indicadores.
 
-## Principais aprendizados
+Principais resultados
+
+A análise apresentada no dashboard possui os seguintes indicadores gerais:
+
+Quantidade de alunos: 80
+Aprovados: 68
+Reprovados: 12
+Média de faltas: 9,90
+Média global: 6,53
+Percentual de aprovação: 85%
+Percentual de reprovação: 15%
+Principais aprendizados
 
 Durante o desenvolvimento do projeto, foram praticados conceitos como:
 
-- Criação e utilização de **medidas DAX**
-- Criação de **indicadores e KPIs**
-- Cálculos de médias
-- Cálculo de percentuais
-- Contagem e agregação de dados
-- Configuração de **gráficos**
-- Criação de **indicadores Gauge**
-- Criação de filtros e interação entre os elementos do dashboard
-- Organização e apresentação visual dos dados
-- Construção de um dashboard voltado para análise de informações acadêmicas
+Tratamento e organização de dados
+Criação e utilização de medidas DAX
+Cálculo de média dos alunos
+Criação de condições para classificação de aprovados e reprovados
+Cálculo da quantidade de alunos aprovados
+Cálculo da quantidade de alunos reprovados
+Cálculo de percentuais de aprovação e reprovação
+Criação de indicadores (Cards/KPIs)
+Criação e configuração de gráficos
+Análise de alunos por curso
+Análise de frequência e faltas
+Análise do desempenho acadêmico
+Criação de filtros e interação entre os elementos do dashboard
+Organização e apresentação visual de indicadores escolares
+Ferramentas utilizadas
+Power BI Desktop
+DAX
+Microsoft Excel
+Autor
 
-## Ferramentas utilizadas
+Henrique Jesus Amorim da Cruz
 
-- **Power BI Desktop**
-- **DAX**
-- **Microsoft Excel**
-
-## Autor
-
-**Henrique Jesus Amorim da Cruz**
-
-Projeto desenvolvido como parte do **curso de Power BI do SENAI**.
+Projeto desenvolvido como parte do curso de Power BI do SENAI.
